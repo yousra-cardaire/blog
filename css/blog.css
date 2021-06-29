@@ -1,0 +1,44 @@
+.avatar{
+    background-color: orange;
+    border-radius: 50% ; 
+    height: 150px; 
+    width: 150px; 
+    position: absolute; 
+    top: 40vh; 
+    margin-left: 15%;
+}
+
+@media only screen and (max-width: 768px){
+    .header img{
+        height: 25vh;
+    }
+    .avatar{
+        height: 100px;
+        width: 100px;
+        margin-left: 35px;
+        top: 36vh;
+    }
+    .btn-write{
+        margin-bottom: 20px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        float: none;
+    }
+    .btn-update, 
+    .btn-delete{
+        width: 150px;
+        margin: 5px;
+    }
+    .mr-2, .mx-2 {
+        margin-right: 0;
+    }
+    
+    .float-right {
+        float: none;
+    }
+}
